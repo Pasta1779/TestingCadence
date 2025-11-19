@@ -75,7 +75,7 @@ module Rez {
         } // prompt_loc__body_no_title
 
         module system_icon_dark__about {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -83,7 +83,7 @@ module Rez {
         } // system_icon_dark__about
 
         module system_icon_light__question {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -100,7 +100,7 @@ module Rez {
         } // prompt_font__title
 
         module system_icon_dark__discard {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -118,13 +118,13 @@ module Rez {
         } // system_color_dark__text
 
         module system_icon_destructive__discard {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__discard.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__discard.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__discard
 
         module system_icon_dark__hint_action_menu {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_action_menu
@@ -145,7 +145,7 @@ module Rez {
         } // system_color_dark__background
 
         module system_icon_destructive__hint_button_left_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_button_left_top
@@ -171,7 +171,7 @@ module Rez {
         } // confirmation_loc__body
 
         module system_icon_destructive__hint_button_left_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_button_left_bottom
@@ -182,7 +182,7 @@ module Rez {
         } // prompt_color_dark__background
 
         module system_icon_destructive__hint_action_menu {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_action_menu
@@ -193,7 +193,7 @@ module Rez {
         } // system_loc__hint_action_menu
 
         module confirmation_icon__hint_confirm {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon__hint_confirm
@@ -209,7 +209,7 @@ module Rez {
         } // prompt_size__body_no_title
 
         module system_icon_light__hint_button_left_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_button_left_top
@@ -224,7 +224,7 @@ module Rez {
         } // confirmation_input__delete
 
         module system_icon_dark__hint_button_left_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_button_left_top
@@ -234,7 +234,7 @@ module Rez {
         } // system_input__action_menu
 
         module system_icon_light__save {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -251,7 +251,7 @@ module Rez {
         } // system_loc__subwindow
 
         module system_icon_light__warning {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -264,7 +264,7 @@ module Rez {
         } // confirmation_color_light__body
 
         module confirmation_icon_light__hint_keep {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_light__hint_keep
@@ -275,7 +275,7 @@ module Rez {
         } // activity_color_light__background
 
         module system_icon_positive__hint_button_right_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_button_right_top
@@ -286,7 +286,7 @@ module Rez {
         } // system_size__screen
 
         module system_icon_destructive__hint_button_right_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_button_right_bottom
@@ -297,7 +297,7 @@ module Rez {
         } // system_color_light__background
 
         module system_icon_destructive__hint_button_right_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_button_right_top
@@ -322,7 +322,7 @@ module Rez {
         } // prompt_loc__body_with_title
 
         module system_icon_dark__search {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -335,13 +335,13 @@ module Rez {
         } // activity_color_light__text
 
         module confirmation_icon__hint_keep {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon__hint_keep
 
         module system_icon_dark__save {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -349,13 +349,13 @@ module Rez {
         } // system_icon_dark__save
 
         module system_icon_destructive__hint_button_left_middle {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_middle.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__hint_button_left_middle
 
         module system_icon_light__search {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -363,13 +363,13 @@ module Rez {
         } // system_icon_light__search
 
         module system_icon_dark__hint_button_left_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_button_left_bottom
 
         module system_icon_positive__hint_button_left_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_button_left_top
@@ -380,7 +380,7 @@ module Rez {
         } // system_loc__hint_button_right_bottom
 
         module confirmation_icon_dark__hint_reject {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_dark__hint_reject
@@ -391,7 +391,7 @@ module Rez {
         } // confirmation_color_dark__body
 
         module confirmation_icon_light__hint_confirm {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_light__hint_confirm
@@ -402,13 +402,13 @@ module Rez {
         } // prompt_color_dark__title
 
         module system_icon_destructive__cancel {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__cancel.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__cancel.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__cancel
 
         module system_icon_light__hint_button_right_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_button_right_bottom
@@ -429,25 +429,25 @@ module Rez {
         } // prompt_color_light__title
 
         module system_icon_dark__hint_button_right_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_button_right_top
 
         module system_icon_dark__hint_button_left_middle {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_button_left_middle
 
         module confirmation_icon_dark__hint_keep {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_dark__hint_keep
 
         module system_icon_light__cancel {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -455,13 +455,13 @@ module Rez {
         } // system_icon_light__cancel
 
         module confirmation_icon_light__hint_reject {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_light__hint_reject
 
         module system_icon_light__about {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -479,13 +479,13 @@ module Rez {
         } // system_icon_dark__hint_button_right_middle
 
         module confirmation_icon__hint_reject {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon__hint_reject
 
         module system_icon_light__hint_action_menu {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_action_menu
@@ -504,7 +504,7 @@ module Rez {
         } // confirmation_loc__hint_reject
 
         module confirmation_icon_dark__hint_delete {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_dark__hint_delete
@@ -515,13 +515,13 @@ module Rez {
         } // activity_color_dark__background
 
         module system_icon_light__hint_button_left_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_button_left_bottom
 
         module system_icon_positive__hint_button_left_middle {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_middle.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_button_left_middle
@@ -533,7 +533,7 @@ module Rez {
         } // system_size__menu_icon
 
         module system_icon_destructive__warning {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__warning.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__warning.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_destructive__warning
@@ -543,7 +543,7 @@ module Rez {
         } // system_loc__hint_button_right_middle
 
         module system_icon_dark__cancel {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -566,7 +566,7 @@ module Rez {
         } // system_color_light__text
 
         module system_icon_light__check {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -578,7 +578,7 @@ module Rez {
         } // confirmation_input__reject
 
         module system_icon_light__revert {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -590,13 +590,13 @@ module Rez {
         } // system_size__subwindow
 
         module system_icon_positive__hint_button_left_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_button_left_bottom
 
         module system_icon_dark__check {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -614,7 +614,7 @@ module Rez {
         } // confirmation_loc__hint_delete
 
         module system_icon_positive__hint_action_menu {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_action_menu
@@ -624,25 +624,25 @@ module Rez {
         } // system_icon_positive__hint_button_right_middle
 
         module system_icon_light__hint_button_left_middle {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_button_left_middle
 
         module system_icon_dark__hint_button_right_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_dark__hint_button_right_bottom
 
         module system_icon_positive__hint_button_right_bottom {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_bottom.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__hint_button_right_bottom
 
         module system_icon_dark__revert {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -650,13 +650,13 @@ module Rez {
         } // system_icon_dark__revert
 
         module confirmation_icon_light__hint_delete {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_light__hint_delete
 
         module system_icon_dark__question {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -664,7 +664,7 @@ module Rez {
         } // system_icon_dark__question
 
         module system_icon_light__discard {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -682,7 +682,7 @@ module Rez {
         } // device_info
 
         module confirmation_icon_dark__hint_confirm {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon_dark__hint_confirm
@@ -698,7 +698,7 @@ module Rez {
         } // prompt_size__title_icon
 
         module system_icon_dark__warning {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -723,13 +723,13 @@ module Rez {
         } // prompt_color_dark__body
 
         module confirmation_icon__hint_delete {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // confirmation_icon__hint_delete
 
         module system_icon_light__hint_button_right_top {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_light__hint_button_right_top
@@ -740,7 +740,7 @@ module Rez {
         } // confirmation_size__body
 
         module system_icon_positive__check {
-            const filename as String = "C:\\Users\\Jack\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__check.svg";
+            const filename as String = "C:\\Users\\teapot\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__check.svg";
             const dithering as String = "none";
             const packingFormat as String = "png";
         } // system_icon_positive__check

@@ -9,6 +9,8 @@ class TestingCadenceView extends WatchUi.View {
     private var _cadenceDisplay;
     private var _refreshTimer;
     private var _heartrateDisplay;
+    private var _distanceDisplay;
+    private var _timeDisplay;
 
     function initialize() {
         View.initialize();
@@ -22,6 +24,8 @@ class TestingCadenceView extends WatchUi.View {
         setLayout(Rez.Layouts.MainLayout(dc));
         _cadenceDisplay = findDrawableById("cadence_text");
         _heartrateDisplay = findDrawableById("heartrate_text");
+        _distanceDisplay = findDrawableById("distance_text");
+        _timeDisplay = findDrawableById("time_text");
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -62,6 +66,25 @@ class TestingCadenceView extends WatchUi.View {
             _heartrateDisplay.setText(info.currentHeartRate.toString());
         }else{
             _heartrateDisplay.setText("--");
+        }
+
+        // Display distance in kilometers with 2 decimal places
+        if (info != null && info.elapsedDistance != null){
+            var distanceKm = info.elapsedDistance / 100000.0; // Convert centimeters to kilometers
+            _distanceDisplay.setText(distanceKm.format("%.2f") + " km");
+        }else{
+            _distanceDisplay.setText("-- km");
+        }
+
+        // Display elapsed time in HH:MM:SS format
+        if (info != null && info.timerTime != null){
+            var seconds = info.timerTime / 1000; // Convert milliseconds to seconds
+            var hours = seconds / 3600;
+            var minutes = (seconds % 3600) / 60;
+            var secs = seconds % 60;
+            _timeDisplay.setText(hours.format("%02d") + ":" + minutes.format("%02d") + ":" + secs.format("%02d"));
+        }else{
+            _timeDisplay.setText("--:--:--");
         }
         
     }

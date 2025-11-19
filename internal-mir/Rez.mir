@@ -32,9 +32,9 @@ module Rez {
         }
         [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 15; @symbol_functiondef = [MainLayout,15,17,27]; @symbol_param<0> = [dc,15,28,30]; @symbol_param<0>_type<0> = [Graphics,15,34,42]; @symbol_param<0>_type<1> = [Dc,15,43,45]; @symbol_return<0> = [Array,15,50,55]; @symbol_return<1> = [WatchUi,15,56,63]; @symbol_return<2> = [Drawable,15,64,72]; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start:
+C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 16 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 16 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -45,7 +45,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 16 16 46 ];
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 18 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 18 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -56,7 +56,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 18 16 45 ];
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 20 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
             %rez_cmp_local_text_cadence_text.3 = local;
             symbol [ rez_cmp_local_text_cadence_text %rez_cmp_local_text_cadence_text.3 20 16 47 ];
             symbol [ WatchUi %tmp.9 20 54 61 ];
@@ -91,7 +91,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             symbol [ locY %tmp.33 20 178 182 const ];
             %tmp.34 = lgetv %rez_cmp_local_var_dc_getHeight.1;
             symbol [ rez_cmp_local_var_dc_getHeight %tmp.34 20 185 215 ];
-            %tmp.35 = 20;
+            %tmp.35 = 10;
             %tmp.36 = 100.0;
             %tmp.37 = div %tmp.35 %tmp.36;
             %tmp.38 = mul %tmp.34 %tmp.37;
@@ -117,135 +117,135 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             lputv %rez_cmp_local_text_cadence_text.3 %tmp.7;
             symbol [ rez_cmp_local_text_cadence_text %rez_cmp_local_text_cadence_text.3 20 16 47 ];
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 22 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
-            %rez_cmp_local_text_heartrate_text.4 = local;
-            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.4 22 16 49 ];
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            %rez_cmp_local_bitmap_cadence_icon.4 = local;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.4 22 16 49 ];
             symbol [ WatchUi %tmp.55 22 56 63 ];
             %tmp.55 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.56 22 64 68 ];
-            %tmp.56 = getv function ? %tmp.55 :Text;
-            %tmp.57 = newd 6;
+            symbol [ Bitmap %tmp.56 22 64 70 ];
+            %tmp.56 = getv function ? %tmp.55 :Bitmap;
+            %tmp.57 = newd 4;
             %tmp.59 = const :identifier;
-            symbol [ identifier %tmp.59 22 71 81 const ];
-            %tmp.60 = "heartrate_text";
+            symbol [ identifier %tmp.59 22 73 83 const ];
+            %tmp.60 = "cadence_icon";
             %tmp.61 = dup %tmp.57;
             %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
-            %tmp.64 = const :color;
-            symbol [ color %tmp.64 22 102 107 const ];
-            symbol [ Gfx %tmp.65 22 109 112 ];
-            %tmp.65 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.66 22 113 124 ];
-            %tmp.66 = getv %tmp.65 :COLOR_WHITE;
-            %tmp.67 = dup %tmp.62;
-            %tmp.68 = aputv %tmp.67 %tmp.64 %tmp.66;
-            %tmp.70 = const :locX;
-            symbol [ locX %tmp.70 22 127 131 const ];
-            %tmp.71 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.71 22 134 163 ];
-            %tmp.72 = 60;
-            %tmp.73 = 100.0;
-            %tmp.74 = div %tmp.72 %tmp.73;
-            %tmp.75 = mul %tmp.71 %tmp.74;
-            %tmp.76 = dup %tmp.68;
-            %tmp.77 = aputv %tmp.76 %tmp.70 %tmp.75;
-            %tmp.79 = const :locY;
-            symbol [ locY %tmp.79 22 182 186 const ];
-            %tmp.80 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.80 22 189 219 ];
-            %tmp.81 = 55;
-            %tmp.82 = 100.0;
-            %tmp.83 = div %tmp.81 %tmp.82;
-            %tmp.84 = mul %tmp.80 %tmp.83;
-            %tmp.85 = dup %tmp.77;
-            %tmp.86 = aputv %tmp.85 %tmp.79 %tmp.84;
-            %tmp.88 = const :justification;
-            symbol [ justification %tmp.88 22 238 251 const ];
-            symbol [ Gfx %tmp.89 22 253 256 ];
-            %tmp.89 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.90 22 257 276 ];
-            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
-            %tmp.91 = dup %tmp.86;
-            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
-            %tmp.94 = const :font;
-            symbol [ font %tmp.94 22 279 283 const ];
-            symbol [ Gfx %tmp.95 22 285 288 ];
-            %tmp.95 = getm $.Toybox.Graphics;
-            symbol [ FONT_NUMBER_MEDIUM %tmp.96 22 289 307 ];
-            %tmp.96 = getv %tmp.95 :FONT_NUMBER_MEDIUM;
-            %tmp.97 = dup %tmp.92;
-            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
-            %tmp.53 = newc %tmp.56 (%tmp.98);
-            lputv %rez_cmp_local_text_heartrate_text.4 %tmp.53;
-            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.4 22 16 49 ];
-[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 24 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
-            %rez_cmp_local_bitmap_cadence_icon.5 = local;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.5 24 16 49 ];
-            symbol [ WatchUi %tmp.101 24 56 63 ];
-            %tmp.101 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.102 24 64 70 ];
-            %tmp.102 = getv function ? %tmp.101 :Bitmap;
-            %tmp.103 = newd 4;
-            %tmp.105 = const :identifier;
-            symbol [ identifier %tmp.105 24 73 83 const ];
-            %tmp.106 = "cadence_icon";
-            %tmp.107 = dup %tmp.103;
-            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
-            %tmp.110 = const :rezId;
-            symbol [ rezId %tmp.110 24 102 107 const ];
-            symbol [ $ %tmp.111 24 109 110 ];
-            %tmp.111 = getm $;
-            symbol [ Rez %tmp.112 24 111 114 ];
-            %tmp.112 = getv %tmp.111 :Rez;
-            symbol [ Drawables %tmp.113 24 115 124 ];
-            %tmp.113 = getv %tmp.112 :Drawables;
-            symbol [ cadence_icon %tmp.114 24 125 137 ];
-            %tmp.114 = getv %tmp.113 :cadence_icon;
-            %tmp.115 = dup %tmp.108;
-            %tmp.116 = aputv %tmp.115 %tmp.110 %tmp.114;
+            %tmp.64 = const :rezId;
+            symbol [ rezId %tmp.64 22 102 107 const ];
+            symbol [ $ %tmp.65 22 109 110 ];
+            %tmp.65 = getm $;
+            symbol [ Rez %tmp.66 22 111 114 ];
+            %tmp.66 = getv %tmp.65 :Rez;
+            symbol [ Drawables %tmp.67 22 115 124 ];
+            %tmp.67 = getv %tmp.66 :Drawables;
+            symbol [ cadence_icon %tmp.68 22 125 137 ];
+            %tmp.68 = getv %tmp.67 :cadence_icon;
+            %tmp.69 = dup %tmp.62;
+            %tmp.70 = aputv %tmp.69 %tmp.64 %tmp.68;
+            %tmp.72 = const :locX;
+            symbol [ locX %tmp.72 22 140 144 const ];
+            %tmp.73 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.73 22 147 176 ];
+            %tmp.74 = 20;
+            %tmp.75 = 100.0;
+            %tmp.76 = div %tmp.74 %tmp.75;
+            %tmp.77 = mul %tmp.73 %tmp.76;
+            %tmp.78 = dup %tmp.70;
+            %tmp.79 = aputv %tmp.78 %tmp.72 %tmp.77;
+            %tmp.81 = const :locY;
+            symbol [ locY %tmp.81 22 195 199 const ];
+            %tmp.82 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.82 22 202 232 ];
+            %tmp.83 = 15;
+            %tmp.84 = 100.0;
+            %tmp.85 = div %tmp.83 %tmp.84;
+            %tmp.86 = mul %tmp.82 %tmp.85;
+            %tmp.87 = dup %tmp.79;
+            %tmp.88 = aputv %tmp.87 %tmp.81 %tmp.86;
+            %tmp.53 = newc %tmp.56 (%tmp.88);
+            lputv %rez_cmp_local_bitmap_cadence_icon.4 %tmp.53;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.4 22 16 49 ];
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 23 12 ]
+            %tmp.89 = lgetv %rez_cmp_local_bitmap_cadence_icon.4;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.89 23 12 45 ];
+            symbol [ setLocation %tmp.90 23 46 57 ];
+            %tmp.90 = getv function %tmp.89 :setLocation;
+            %tmp.91 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.91 23 59 88 ];
+            %tmp.92 = 20;
+            %tmp.93 = 100.0;
+            %tmp.94 = div %tmp.92 %tmp.93;
+            %tmp.95 = mul %tmp.91 %tmp.94;
+            %tmp.96 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.96 23 107 137 ];
+            %tmp.97 = 15;
+            %tmp.98 = 100.0;
+            %tmp.99 = div %tmp.97 %tmp.98;
+            %tmp.100 = mul %tmp.96 %tmp.99;
+            invoke %tmp.89 %tmp.90(%tmp.95, %tmp.100);
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 25 12 ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            %rez_cmp_local_text_heartrate_text.5 = local;
+            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.5 25 16 49 ];
+            symbol [ WatchUi %tmp.103 25 56 63 ];
+            %tmp.103 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.104 25 64 68 ];
+            %tmp.104 = getv function ? %tmp.103 :Text;
+            %tmp.105 = newd 6;
+            %tmp.107 = const :identifier;
+            symbol [ identifier %tmp.107 25 71 81 const ];
+            %tmp.108 = "heartrate_text";
+            %tmp.109 = dup %tmp.105;
+            %tmp.110 = aputv %tmp.109 %tmp.107 %tmp.108;
+            %tmp.112 = const :color;
+            symbol [ color %tmp.112 25 102 107 const ];
+            symbol [ Gfx %tmp.113 25 109 112 ];
+            %tmp.113 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.114 25 113 124 ];
+            %tmp.114 = getv %tmp.113 :COLOR_WHITE;
+            %tmp.115 = dup %tmp.110;
+            %tmp.116 = aputv %tmp.115 %tmp.112 %tmp.114;
             %tmp.118 = const :locX;
-            symbol [ locX %tmp.118 24 140 144 const ];
+            symbol [ locX %tmp.118 25 127 131 const ];
             %tmp.119 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.119 24 147 176 ];
-            %tmp.120 = 20;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.119 25 134 163 ];
+            %tmp.120 = 60;
             %tmp.121 = 100.0;
             %tmp.122 = div %tmp.120 %tmp.121;
             %tmp.123 = mul %tmp.119 %tmp.122;
             %tmp.124 = dup %tmp.116;
             %tmp.125 = aputv %tmp.124 %tmp.118 %tmp.123;
             %tmp.127 = const :locY;
-            symbol [ locY %tmp.127 24 195 199 const ];
+            symbol [ locY %tmp.127 25 182 186 const ];
             %tmp.128 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.128 24 202 232 ];
-            %tmp.129 = 25;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.128 25 189 219 ];
+            %tmp.129 = 30;
             %tmp.130 = 100.0;
             %tmp.131 = div %tmp.129 %tmp.130;
             %tmp.132 = mul %tmp.128 %tmp.131;
             %tmp.133 = dup %tmp.125;
             %tmp.134 = aputv %tmp.133 %tmp.127 %tmp.132;
-            %tmp.99 = newc %tmp.102 (%tmp.134);
-            lputv %rez_cmp_local_bitmap_cadence_icon.5 %tmp.99;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.5 24 16 49 ];
-[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 25 12 ]
-            %tmp.135 = lgetv %rez_cmp_local_bitmap_cadence_icon.5;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.135 25 12 45 ];
-            symbol [ setLocation %tmp.136 25 46 57 ];
-            %tmp.136 = getv function %tmp.135 :setLocation;
-            %tmp.137 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.137 25 59 88 ];
-            %tmp.138 = 20;
-            %tmp.139 = 100.0;
-            %tmp.140 = div %tmp.138 %tmp.139;
-            %tmp.141 = mul %tmp.137 %tmp.140;
-            %tmp.142 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.142 25 107 137 ];
-            %tmp.143 = 25;
-            %tmp.144 = 100.0;
-            %tmp.145 = div %tmp.143 %tmp.144;
-            %tmp.146 = mul %tmp.142 %tmp.145;
-            invoke %tmp.135 %tmp.136(%tmp.141, %tmp.146);
+            %tmp.136 = const :justification;
+            symbol [ justification %tmp.136 25 238 251 const ];
+            symbol [ Gfx %tmp.137 25 253 256 ];
+            %tmp.137 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.138 25 257 276 ];
+            %tmp.138 = getv %tmp.137 :TEXT_JUSTIFY_CENTER;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.142 = const :font;
+            symbol [ font %tmp.142 25 279 283 const ];
+            symbol [ Gfx %tmp.143 25 285 288 ];
+            %tmp.143 = getm $.Toybox.Graphics;
+            symbol [ FONT_NUMBER_MEDIUM %tmp.144 25 289 307 ];
+            %tmp.144 = getv %tmp.143 :FONT_NUMBER_MEDIUM;
+            %tmp.145 = dup %tmp.140;
+            %tmp.146 = aputv %tmp.145 %tmp.142 %tmp.144;
+            %tmp.101 = newc %tmp.104 (%tmp.146);
+            lputv %rez_cmp_local_text_heartrate_text.5 %tmp.101;
+            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.5 25 16 49 ];
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 27 12 ]
-            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
             %rez_cmp_local_bitmap_heartrate_icon.6 = local;
             symbol [ rez_cmp_local_bitmap_heartrate_icon %rez_cmp_local_bitmap_heartrate_icon.6 27 16 51 ];
             symbol [ WatchUi %tmp.149 27 58 65 ];
@@ -284,7 +284,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             symbol [ locY %tmp.175 27 201 205 const ];
             %tmp.176 = lgetv %rez_cmp_local_var_dc_getHeight.1;
             symbol [ rez_cmp_local_var_dc_getHeight %tmp.176 27 208 238 ];
-            %tmp.177 = 60;
+            %tmp.177 = 35;
             %tmp.178 = 100.0;
             %tmp.179 = div %tmp.177 %tmp.178;
             %tmp.180 = mul %tmp.176 %tmp.179;
@@ -306,119 +306,249 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_de
             %tmp.189 = mul %tmp.185 %tmp.188;
             %tmp.190 = lgetv %rez_cmp_local_var_dc_getHeight.1;
             symbol [ rez_cmp_local_var_dc_getHeight %tmp.190 28 109 139 ];
-            %tmp.191 = 60;
+            %tmp.191 = 35;
             %tmp.192 = 100.0;
             %tmp.193 = div %tmp.191 %tmp.192;
             %tmp.194 = mul %tmp.190 %tmp.193;
             invoke %tmp.183 %tmp.184(%tmp.189, %tmp.194);
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 30 12 ]
-            %tmp.195 = newa 4 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.195 30 163 168 ];
-            symbol [ WatchUi %tmp.195 30 169 176 ];
-            symbol [ Drawable %tmp.195 30 177 185 ];
-            %tmp.196 = lgetv %rez_cmp_local_text_cadence_text.3;
-            symbol [ rez_cmp_local_text_cadence_text %tmp.196 30 20 51 ];
-            %tmp.197 = dup %tmp.195;
-            %tmp.198 = aputv %tmp.197 0 %tmp.196;
-            %tmp.199 = lgetv %rez_cmp_local_text_heartrate_text.4;
-            symbol [ rez_cmp_local_text_heartrate_text %tmp.199 30 53 86 ];
-            %tmp.200 = dup %tmp.198;
-            %tmp.201 = aputv %tmp.200 1 %tmp.199;
-            %tmp.202 = lgetv %rez_cmp_local_bitmap_cadence_icon.5;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.202 30 88 121 ];
-            %tmp.203 = dup %tmp.201;
-            %tmp.204 = aputv %tmp.203 2 %tmp.202;
-            %tmp.205 = lgetv %rez_cmp_local_bitmap_heartrate_icon.6;
-            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.205 30 123 158 ];
-            %tmp.206 = dup %tmp.204;
-            %tmp.207 = aputv %tmp.206 3 %tmp.205;
-            ret %tmp.207;
-C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_31_8_stop:
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            %rez_cmp_local_text_distance_text.7 = local;
+            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.7 30 16 48 ];
+            symbol [ WatchUi %tmp.197 30 55 62 ];
+            %tmp.197 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.198 30 63 67 ];
+            %tmp.198 = getv function ? %tmp.197 :Text;
+            %tmp.199 = newd 6;
+            %tmp.201 = const :identifier;
+            symbol [ identifier %tmp.201 30 70 80 const ];
+            %tmp.202 = "distance_text";
+            %tmp.203 = dup %tmp.199;
+            %tmp.204 = aputv %tmp.203 %tmp.201 %tmp.202;
+            %tmp.206 = const :color;
+            symbol [ color %tmp.206 30 100 105 const ];
+            symbol [ Gfx %tmp.207 30 107 110 ];
+            %tmp.207 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.208 30 111 122 ];
+            %tmp.208 = getv %tmp.207 :COLOR_WHITE;
+            %tmp.209 = dup %tmp.204;
+            %tmp.210 = aputv %tmp.209 %tmp.206 %tmp.208;
+            %tmp.212 = const :locX;
+            symbol [ locX %tmp.212 30 125 129 const ];
+            %tmp.213 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.213 30 132 161 ];
+            %tmp.214 = 50;
+            %tmp.215 = 100.0;
+            %tmp.216 = div %tmp.214 %tmp.215;
+            %tmp.217 = mul %tmp.213 %tmp.216;
+            %tmp.218 = dup %tmp.210;
+            %tmp.219 = aputv %tmp.218 %tmp.212 %tmp.217;
+            %tmp.221 = const :locY;
+            symbol [ locY %tmp.221 30 180 184 const ];
+            %tmp.222 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.222 30 187 217 ];
+            %tmp.223 = 55;
+            %tmp.224 = 100.0;
+            %tmp.225 = div %tmp.223 %tmp.224;
+            %tmp.226 = mul %tmp.222 %tmp.225;
+            %tmp.227 = dup %tmp.219;
+            %tmp.228 = aputv %tmp.227 %tmp.221 %tmp.226;
+            %tmp.230 = const :justification;
+            symbol [ justification %tmp.230 30 236 249 const ];
+            symbol [ Gfx %tmp.231 30 251 254 ];
+            %tmp.231 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.232 30 255 274 ];
+            %tmp.232 = getv %tmp.231 :TEXT_JUSTIFY_CENTER;
+            %tmp.233 = dup %tmp.228;
+            %tmp.234 = aputv %tmp.233 %tmp.230 %tmp.232;
+            %tmp.236 = const :font;
+            symbol [ font %tmp.236 30 277 281 const ];
+            symbol [ Gfx %tmp.237 30 283 286 ];
+            %tmp.237 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.238 30 287 298 ];
+            %tmp.238 = getv %tmp.237 :FONT_MEDIUM;
+            %tmp.239 = dup %tmp.234;
+            %tmp.240 = aputv %tmp.239 %tmp.236 %tmp.238;
+            %tmp.195 = newc %tmp.198 (%tmp.240);
+            lputv %rez_cmp_local_text_distance_text.7 %tmp.195;
+            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.7 30 16 48 ];
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 32 12 ]
+            [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            %rez_cmp_local_text_time_text.8 = local;
+            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.8 32 16 44 ];
+            symbol [ WatchUi %tmp.243 32 51 58 ];
+            %tmp.243 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.244 32 59 63 ];
+            %tmp.244 = getv function ? %tmp.243 :Text;
+            %tmp.245 = newd 6;
+            %tmp.247 = const :identifier;
+            symbol [ identifier %tmp.247 32 66 76 const ];
+            %tmp.248 = "time_text";
+            %tmp.249 = dup %tmp.245;
+            %tmp.250 = aputv %tmp.249 %tmp.247 %tmp.248;
+            %tmp.252 = const :color;
+            symbol [ color %tmp.252 32 92 97 const ];
+            symbol [ Gfx %tmp.253 32 99 102 ];
+            %tmp.253 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.254 32 103 114 ];
+            %tmp.254 = getv %tmp.253 :COLOR_WHITE;
+            %tmp.255 = dup %tmp.250;
+            %tmp.256 = aputv %tmp.255 %tmp.252 %tmp.254;
+            %tmp.258 = const :locX;
+            symbol [ locX %tmp.258 32 117 121 const ];
+            %tmp.259 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.259 32 124 153 ];
+            %tmp.260 = 50;
+            %tmp.261 = 100.0;
+            %tmp.262 = div %tmp.260 %tmp.261;
+            %tmp.263 = mul %tmp.259 %tmp.262;
+            %tmp.264 = dup %tmp.256;
+            %tmp.265 = aputv %tmp.264 %tmp.258 %tmp.263;
+            %tmp.267 = const :locY;
+            symbol [ locY %tmp.267 32 172 176 const ];
+            %tmp.268 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.268 32 179 209 ];
+            %tmp.269 = 75;
+            %tmp.270 = 100.0;
+            %tmp.271 = div %tmp.269 %tmp.270;
+            %tmp.272 = mul %tmp.268 %tmp.271;
+            %tmp.273 = dup %tmp.265;
+            %tmp.274 = aputv %tmp.273 %tmp.267 %tmp.272;
+            %tmp.276 = const :justification;
+            symbol [ justification %tmp.276 32 228 241 const ];
+            symbol [ Gfx %tmp.277 32 243 246 ];
+            %tmp.277 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.278 32 247 266 ];
+            %tmp.278 = getv %tmp.277 :TEXT_JUSTIFY_CENTER;
+            %tmp.279 = dup %tmp.274;
+            %tmp.280 = aputv %tmp.279 %tmp.276 %tmp.278;
+            %tmp.282 = const :font;
+            symbol [ font %tmp.282 32 269 273 const ];
+            symbol [ Gfx %tmp.283 32 275 278 ];
+            %tmp.283 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.284 32 279 290 ];
+            %tmp.284 = getv %tmp.283 :FONT_MEDIUM;
+            %tmp.285 = dup %tmp.280;
+            %tmp.286 = aputv %tmp.285 %tmp.282 %tmp.284;
+            %tmp.241 = newc %tmp.244 (%tmp.286);
+            lputv %rez_cmp_local_text_time_text.8 %tmp.241;
+            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.8 32 16 44 ];
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 34 12 ]
+            %tmp.287 = newa 6 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.287 34 227 232 ];
+            symbol [ WatchUi %tmp.287 34 233 240 ];
+            symbol [ Drawable %tmp.287 34 241 249 ];
+            %tmp.288 = lgetv %rez_cmp_local_text_cadence_text.3;
+            symbol [ rez_cmp_local_text_cadence_text %tmp.288 34 20 51 ];
+            %tmp.289 = dup %tmp.287;
+            %tmp.290 = aputv %tmp.289 0 %tmp.288;
+            %tmp.291 = lgetv %rez_cmp_local_bitmap_cadence_icon.4;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.291 34 53 86 ];
+            %tmp.292 = dup %tmp.290;
+            %tmp.293 = aputv %tmp.292 1 %tmp.291;
+            %tmp.294 = lgetv %rez_cmp_local_text_heartrate_text.5;
+            symbol [ rez_cmp_local_text_heartrate_text %tmp.294 34 88 121 ];
+            %tmp.295 = dup %tmp.293;
+            %tmp.296 = aputv %tmp.295 2 %tmp.294;
+            %tmp.297 = lgetv %rez_cmp_local_bitmap_heartrate_icon.6;
+            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.297 34 123 158 ];
+            %tmp.298 = dup %tmp.296;
+            %tmp.299 = aputv %tmp.298 3 %tmp.297;
+            %tmp.300 = lgetv %rez_cmp_local_text_distance_text.7;
+            symbol [ rez_cmp_local_text_distance_text %tmp.300 34 160 192 ];
+            %tmp.301 = dup %tmp.299;
+            %tmp.302 = aputv %tmp.301 4 %tmp.300;
+            %tmp.303 = lgetv %rez_cmp_local_text_time_text.8;
+            symbol [ rez_cmp_local_text_time_text %tmp.303 34 194 222 ];
+            %tmp.304 = dup %tmp.302;
+            %tmp.305 = aputv %tmp.304 5 %tmp.303;
+            ret %tmp.305;
+C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop:
         }
     }
-    [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 34; @symbol_moduledef = [Menus,34,11,16]; ]
+    [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 38; @symbol_moduledef = [Menus,38,11,16]; ]
     module Menus {
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 34; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 38; ]
         <init> {
         }
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 35; @symbol_classdef = [MainMenu,35,14,22]; @symbol_extends<0> = [WatchUi,35,31,38]; @symbol_extends<1> = [Menu,35,39,43]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; @symbol_classdef = [MainMenu,39,14,22]; @symbol_extends<0> = [WatchUi,39,31,38]; @symbol_extends<1> = [Menu,39,39,43]; ]
         class MainMenu extends WatchUi.Menu {
-            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 35; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; ]
             <init> {
             }
-            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 35; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; ]
             static
             <init> {
             }
-            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 36; @symbol_functiondef = [initialize,36,21,31]; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 40; @symbol_functiondef = [initialize,40,21,31]; ]
             function initialize() as Void {
-C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_36_34_40_12_start:
-[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 37 16 ]
-                symbol [ Menu %tmp.2 37 16 20 ];
+C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_40_34_44_12_start:
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 41 16 ]
+                symbol [ Menu %tmp.2 41 16 20 ];
                 %tmp.2 = getv ? :Menu;
-                symbol [ initialize %tmp.3 37 21 31 ];
+                symbol [ initialize %tmp.3 41 21 31 ];
                 %tmp.3 = getv function %tmp.2 :initialize;
                 invoke %tmp.2 %tmp.3();
-[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 38 16 ]
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 42 16 ]
                 %tmp.4 = self;
-                symbol [ addItem %tmp.5 38 16 23 ];
+                symbol [ addItem %tmp.5 42 16 23 ];
                 %tmp.5 = getv function %tmp.4 :addItem;
-                symbol [ WatchUi %tmp.6 38 25 32 ];
+                symbol [ WatchUi %tmp.6 42 25 32 ];
                 %tmp.6 = getm $.Toybox.WatchUi;
-                symbol [ loadResource %tmp.7 38 33 45 ];
+                symbol [ loadResource %tmp.7 42 33 45 ];
                 %tmp.7 = getv function %tmp.6 :loadResource;
-                symbol [ $ %tmp.8 38 46 47 ];
+                symbol [ $ %tmp.8 42 46 47 ];
                 %tmp.8 = getm $;
-                symbol [ Rez %tmp.9 38 48 51 ];
+                symbol [ Rez %tmp.9 42 48 51 ];
                 %tmp.9 = getv %tmp.8 :Rez;
-                symbol [ Strings %tmp.10 38 52 59 ];
+                symbol [ Strings %tmp.10 42 52 59 ];
                 %tmp.10 = getv %tmp.9 :Strings;
-                symbol [ menu_label_1 %tmp.11 38 60 72 ];
+                symbol [ menu_label_1 %tmp.11 42 60 72 ];
                 %tmp.11 = getv %tmp.10 :menu_label_1;
                 %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
                 %tmp.13 = as %tmp.12 String;
-                symbol [ String %tmp.13 38 77 83 ];
+                symbol [ String %tmp.13 42 77 83 ];
                 %tmp.15 = const :item_1;
-                symbol [ item_1 %tmp.15 38 87 93 const ];
+                symbol [ item_1 %tmp.15 42 87 93 const ];
                 invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
-[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 39 16 ]
+[ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen" 43 16 ]
                 %tmp.16 = self;
-                symbol [ addItem %tmp.17 39 16 23 ];
+                symbol [ addItem %tmp.17 43 16 23 ];
                 %tmp.17 = getv function %tmp.16 :addItem;
-                symbol [ WatchUi %tmp.18 39 25 32 ];
+                symbol [ WatchUi %tmp.18 43 25 32 ];
                 %tmp.18 = getm $.Toybox.WatchUi;
-                symbol [ loadResource %tmp.19 39 33 45 ];
+                symbol [ loadResource %tmp.19 43 33 45 ];
                 %tmp.19 = getv function %tmp.18 :loadResource;
-                symbol [ $ %tmp.20 39 46 47 ];
+                symbol [ $ %tmp.20 43 46 47 ];
                 %tmp.20 = getm $;
-                symbol [ Rez %tmp.21 39 48 51 ];
+                symbol [ Rez %tmp.21 43 48 51 ];
                 %tmp.21 = getv %tmp.20 :Rez;
-                symbol [ Strings %tmp.22 39 52 59 ];
+                symbol [ Strings %tmp.22 43 52 59 ];
                 %tmp.22 = getv %tmp.21 :Strings;
-                symbol [ menu_label_2 %tmp.23 39 60 72 ];
+                symbol [ menu_label_2 %tmp.23 43 60 72 ];
                 %tmp.23 = getv %tmp.22 :menu_label_2;
                 %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
                 %tmp.25 = as %tmp.24 String;
-                symbol [ String %tmp.25 39 77 83 ];
+                symbol [ String %tmp.25 43 77 83 ];
                 %tmp.27 = const :item_2;
-                symbol [ item_2 %tmp.27 39 87 93 const ];
+                symbol [ item_2 %tmp.27 43 87 93 const ];
                 invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
-C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_36_34_40_12_stop:
+C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_gen_no_device_source_Rez_mcgen_40_34_44_12_stop:
             }
         }
     }
-    [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 44; @symbol_moduledef = [Strings,44,11,18]; ]
+    [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 48; @symbol_moduledef = [Strings,48,11,18]; ]
     module Strings {
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 44; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 48; ]
         <init> {
         }
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,45,27,39]; @symbol_type<0> = [ResourceId,45,43,53]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,49,27,39]; @symbol_type<0> = [ResourceId,49,43,53]; ]
         var menu_label_1 as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [menu_label_2,46,27,39]; @symbol_type<0> = [ResourceId,46,43,53]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [menu_label_2,50,27,39]; @symbol_type<0> = [ResourceId,50,43,53]; ]
         var menu_label_2 as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [prompt,47,27,33]; @symbol_type<0> = [ResourceId,47,37,47]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [prompt,51,27,33]; @symbol_type<0> = [ResourceId,51,37,47]; ]
         var prompt as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [AppName,48,27,34]; @symbol_type<0> = [ResourceId,48,38,48]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [AppName,52,27,34]; @symbol_type<0> = [ResourceId,52,38,48]; ]
         var AppName as ResourceId;
     }
 }

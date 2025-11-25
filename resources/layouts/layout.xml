@@ -1,5 +1,11 @@
 <layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <!-- Cadence -->
+   <!-- Cadence Icon -->
+<bitmap id="cadence_icon" 
+    x="25%"
+    y="8%"
+    filename="../drawables/cadence_icon.png" />
+
+<!-- Cadence Text -->
 <label id="cadence_text" 
     x="60%" 
     y="10%" 
@@ -14,7 +20,13 @@
     justification="Gfx.TEXT_JUSTIFY_CENTER"
     color="Gfx.COLOR_WHITE" />
 
-<!-- Heart Rate -->
+<!-- Heart Rate Icon -->
+<bitmap id="heartrate_icon" 
+    x="25%" 
+    y="32%"
+    filename="../drawables/heartrate_icon_red.png" />
+
+<!-- Heart Rate Text -->
 <label id="heartrate_text"
     x="60%"
     y="35%"

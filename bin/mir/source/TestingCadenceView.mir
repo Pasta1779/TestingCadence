@@ -1,13 +1,14 @@
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Activity,3,14,22]; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Activity,3,14,22]; ]
 import Toybox.Activity;
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Lang,4,14,18]; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Lang,4,14,18]; ]
 import Toybox.Lang;
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Timer,5,14,19]; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Timer,5,14,19]; ]
 import Toybox.Timer;
+<<<<<<< HEAD
 [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [System,6,14,20]; ]
 import Toybox.System;
 [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 8; @symbol_classdef = [TestingCadenceView,8,6,24]; @symbol_extends<0> = [WatchUi,8,33,40]; @symbol_extends<1> = [View,8,41,45]; ]
@@ -15,6 +16,15 @@ class TestingCadenceView extends WatchUi.View {
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 8; ]
     <init> {
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 17 16 ]
+=======
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [System,6,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 8; @symbol_classdef = [TestingCadenceView,8,6,24]; @symbol_extends<0> = [WatchUi,8,33,40]; @symbol_extends<1> = [View,8,41,45]; ]
+class TestingCadenceView extends WatchUi.View {
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 8; ]
+    <init> {
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 17 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ Timer %tmp.3 17 33 38 ];
         %tmp.3 = getm $.Toybox.Timer;
         symbol [ Timer %tmp.4 17 39 44 ];
@@ -22,6 +32,7 @@ class TestingCadenceView extends WatchUi.View {
         %tmp.1 = newc %tmp.4 ();
         putv self :_vibeTimer %tmp.1;
     }
+<<<<<<< HEAD
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 8; ]
     static
     <init> {
@@ -54,24 +65,71 @@ class TestingCadenceView extends WatchUi.View {
     function _secondVibe() as Void {
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_19_35_24_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 23 8 ]
+=======
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 10; @position = 16; @symbol_vardef = [_cadenceDisplay,10,16,31]; ]
+    private
+    var _cadenceDisplay;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 11; @position = 16; @symbol_vardef = [_refreshTimer,11,16,29]; ]
+    private
+    var _refreshTimer;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 12; @position = 16; @symbol_vardef = [_heartrateDisplay,12,16,33]; ]
+    private
+    var _heartrateDisplay;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 13; @position = 16; @symbol_vardef = [_distanceDisplay,13,16,32]; ]
+    private
+    var _distanceDisplay;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 14; @position = 16; @symbol_vardef = [_timeDisplay,14,16,28]; ]
+    private
+    var _timeDisplay;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 15; @position = 16; @symbol_vardef = [_cadenceZoneDisplay,15,16,35]; ]
+    private
+    var _cadenceZoneDisplay;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 16; @position = 16; @symbol_vardef = [_lastZoneState,16,16,30]; ]
+    private
+    var _lastZoneState = 0;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 17; @position = 16; @symbol_vardef = [_vibeTimer,17,16,26]; ]
+    private
+    var _vibeTimer;
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 19; @symbol_functiondef = [_secondVibe,19,13,24]; ]
+    function _secondVibe() as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_19_35_24_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 23 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ System %tmp.1 23 8 14 ];
         %tmp.1 = getm $.Toybox.System;
         symbol [ println %tmp.2 23 15 22 ];
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "[vibe] second pulse";
         invoke %tmp.1 %tmp.2(%tmp.3);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_19_35_24_4_stop:
     }
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 26; @symbol_functiondef = [initialize,26,13,23]; ]
     function initialize() as Void {
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_26_26_31_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 27 8 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_19_35_24_4_stop:
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 26; @symbol_functiondef = [initialize,26,13,23]; ]
+    function initialize() as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_26_26_31_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 27 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ View %tmp.2 27 8 12 ];
         %tmp.2 = getv ? :View;
         symbol [ initialize %tmp.3 27 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 28 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 28 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ Timer %tmp.6 28 28 33 ];
         %tmp.6 = getm $.Toybox.Timer;
         symbol [ Timer %tmp.7 28 34 39 ];
@@ -79,7 +137,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.4 = newc %tmp.7 ();
         symbol [ _refreshTimer ? 28 8 21 ];
         putv self :_refreshTimer %tmp.4;
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 30 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 30 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _refreshTimer %tmp.9 30 8 21 ];
         %tmp.9 = getv ? :_refreshTimer;
         symbol [ start %tmp.10 30 22 27 ];
@@ -93,12 +155,21 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.16 = 3000;
         %tmp.17 = true;
         invoke %tmp.9 %tmp.10(%tmp.15, %tmp.16, %tmp.17);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_26_26_31_4_stop:
     }
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 34; @symbol_functiondef = [onLayout,34,13,21]; @symbol_param<0> = [dc,34,22,24]; @symbol_param<0>_type<0> = [Dc,34,28,30]; ]
     function onLayout(dc as Dc) as Void {
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_34_40_41_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 35 8 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_26_26_31_4_stop:
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 34; @symbol_functiondef = [onLayout,34,13,21]; @symbol_param<0> = [dc,34,22,24]; @symbol_param<0>_type<0> = [Dc,34,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_34_40_41_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 35 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 35 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
@@ -112,7 +183,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         symbol [ dc %tmp.7 35 41 43 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 36 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 36 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.9 = self;
         symbol [ findDrawableById %tmp.10 36 26 42 ];
         %tmp.10 = getv function %tmp.9 :findDrawableById;
@@ -120,7 +195,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
         symbol [ _cadenceDisplay ? 36 8 23 ];
         putv self :_cadenceDisplay %tmp.12;
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 37 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 37 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.13 = self;
         symbol [ findDrawableById %tmp.14 37 30 46 ];
         %tmp.14 = getv function %tmp.13 :findDrawableById;
@@ -128,7 +207,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
         symbol [ _cadenceZoneDisplay ? 37 8 27 ];
         putv self :_cadenceZoneDisplay %tmp.16;
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 38 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 38 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.17 = self;
         symbol [ findDrawableById %tmp.18 38 28 44 ];
         %tmp.18 = getv function %tmp.17 :findDrawableById;
@@ -136,7 +219,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
         symbol [ _heartrateDisplay ? 38 8 25 ];
         putv self :_heartrateDisplay %tmp.20;
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 39 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 39 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.21 = self;
         symbol [ findDrawableById %tmp.22 39 27 43 ];
         %tmp.22 = getv function %tmp.21 :findDrawableById;
@@ -144,7 +231,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
         symbol [ _distanceDisplay ? 39 8 24 ];
         putv self :_distanceDisplay %tmp.24;
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 40 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 40 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.25 = self;
         symbol [ findDrawableById %tmp.26 40 23 39 ];
         %tmp.26 = getv function %tmp.25 :findDrawableById;
@@ -152,6 +243,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
         symbol [ _timeDisplay ? 40 8 20 ];
         putv self :_timeDisplay %tmp.28;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_34_40_41_4_stop:
     }
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 46; @symbol_functiondef = [onShow,46,13,19]; ]
@@ -161,11 +253,26 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
     function onUpdate(dc as Dc) as Void {
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 52 8 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_34_40_41_4_stop:
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 46; @symbol_functiondef = [onShow,46,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 50; @symbol_functiondef = [onUpdate,50,13,21]; @symbol_param<0> = [dc,50,22,24]; @symbol_param<0>_type<0> = [Dc,50,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 52 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.1 = self;
         symbol [ displayCadence %tmp.2 52 8 22 ];
         %tmp.2 = getv function %tmp.1 :displayCadence;
         invoke %tmp.1 %tmp.2();
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 54 8 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 54 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ View %tmp.4 54 8 12 ];
         %tmp.4 = getv ? :View;
         symbol [ onUpdate %tmp.5 54 13 21 ];
@@ -173,6 +280,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.6 = lgetv %dc;
         symbol [ dc %tmp.6 54 22 24 ];
         invoke %tmp.4 %tmp.5(%tmp.6);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_stop:
     }
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 60; @symbol_functiondef = [onHide,60,13,19]; ]
@@ -182,11 +290,23 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
     function refreshScreen() as Void {
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_63_36_65_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 64 8 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_stop:
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 60; @symbol_functiondef = [onHide,60,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 63; @symbol_functiondef = [refreshScreen,63,13,26]; ]
+    function refreshScreen() as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_63_36_65_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 64 8 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ WatchUi %tmp.1 64 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
         symbol [ requestUpdate %tmp.2 64 16 29 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_63_36_65_4_stop:
     }
     [ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 67; @symbol_functiondef = [displayCadence,67,13,27]; ]
@@ -194,6 +314,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 68 8 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_63_36_65_4_stop:
+    }
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 67; @symbol_functiondef = [displayCadence,67,13,27]; ]
+    function displayCadence() as Void {
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 68 8 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %info.1 = local;
         symbol [ info %info.1 68 12 16 ];
         symbol [ Activity %tmp.1 68 19 27 ];
@@ -203,15 +332,26 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %info.1 %tmp.3;
         symbol [ info %info.1 68 12 16 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 71 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_12_71_51_begin:
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 71 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_12_71_51_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.4 = lgetv %info.1;
         symbol [ info %tmp.4 71 12 16 ];
         %tmp.5 = null;
         %tmp.6 = ne %tmp.4 %tmp.5;
+<<<<<<< HEAD
         bf %tmp.6 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_true:
+=======
+        bf %tmp.6 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.7 = lgetv %info.1;
         symbol [ info %tmp.7 71 28 32 ];
         %tmp.8 = as %tmp.7 { (!Null) };
@@ -220,12 +360,21 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.10 = null;
         %tmp.11 = ne %tmp.9 %tmp.10;
         push %tmp.11;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_end:
         %tmp.12 = phi [%tmp.6 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_12_71_51_begin] [%tmp.11 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_true] [%tmp.12 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_end];
         bf %tmp.12 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_56_73_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 72 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_end:
+        %tmp.12 = phi [%tmp.6 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_12_71_51_begin] [%tmp.11 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_true] [%tmp.12 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_28_71_51_end];
+        bf %tmp.12 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_56_73_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 72 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _cadenceDisplay %tmp.14 72 12 27 ];
         %tmp.14 = getv ? :_cadenceDisplay;
         symbol [ setText %tmp.15 72 28 35 ];
@@ -239,21 +388,36 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.19 = getv function %tmp.18 :toString;
         %tmp.20 = invoke %tmp.18 %tmp.19();
         invoke %tmp.14 %tmp.15(%tmp.20);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_56_73_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_73_13_75_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 74 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_56_73_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_73_13_75_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 74 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _cadenceDisplay %tmp.22 74 12 27 ];
         %tmp.22 = getv ? :_cadenceDisplay;
         symbol [ setText %tmp.23 74 28 35 ];
         %tmp.23 = getv function %tmp.22 :setText;
         %tmp.24 = "--";
         invoke %tmp.22 %tmp.23(%tmp.24);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_73_13_75_8_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 78 8 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_73_13_75_8_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_71_8_75_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 78 8 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %minZone.2 = local;
         symbol [ minZone %minZone.2 78 12 19 ];
         %tmp.25 = self;
@@ -265,8 +429,13 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.29 = invoke %tmp.27 %tmp.28();
         lputv %minZone.2 %tmp.29;
         symbol [ minZone %minZone.2 78 12 19 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 79 8 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 79 8 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %maxZone.3 = local;
         symbol [ maxZone %maxZone.3 79 12 19 ];
         %tmp.30 = self;
@@ -278,22 +447,38 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.34 = invoke %tmp.32 %tmp.33();
         lputv %maxZone.3 %tmp.34;
         symbol [ maxZone %maxZone.3 79 12 19 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 80 8 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 80 8 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %zoneText.4 = local;
         symbol [ zoneText %zoneText.4 80 12 20 ];
         %tmp.35 = "";
         lputv %zoneText.4 %tmp.35;
         symbol [ zoneText %zoneText.4 80 12 20 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 81 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin:
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 81 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.36 = lgetv %info.1;
         symbol [ info %tmp.36 81 12 16 ];
         %tmp.37 = null;
         %tmp.38 = ne %tmp.36 %tmp.37;
+<<<<<<< HEAD
         bf %tmp.38 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true:
+=======
+        bf %tmp.38 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.39 = lgetv %info.1;
         symbol [ info %tmp.39 81 28 32 ];
         %tmp.40 = as %tmp.39 { (!Null) };
@@ -302,6 +487,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.42 = null;
         %tmp.43 = ne %tmp.41 %tmp.42;
         push %tmp.43;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end:
         %tmp.44 = phi [%tmp.38 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin] [%tmp.43 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true] [%tmp.44 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end];
         bf %tmp.44 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false;
@@ -309,6 +495,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 82 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end:
+        %tmp.44 = phi [%tmp.38 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin] [%tmp.43 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true] [%tmp.44 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end];
+        bf %tmp.44 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 82 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %c.5 = local;
         symbol [ c %c.5 82 16 17 ];
         %tmp.45 = lgetv %info.1;
@@ -318,28 +513,48 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.47 = getv %tmp.46 :currentCadence;
         lputv %c.5 %tmp.47;
         symbol [ c %c.5 82 16 17 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 83 12 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_16_83_37_begin:
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 83 12 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_16_83_37_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.48 = lgetv %c.5;
         symbol [ c %tmp.48 83 16 17 ];
         %tmp.49 = lgetv %minZone.2;
         symbol [ minZone %tmp.49 83 21 28 ];
         %tmp.50 = gte %tmp.48 %tmp.49;
+<<<<<<< HEAD
         bf %tmp.50 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_true:
+=======
+        bf %tmp.50 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.51 = lgetv %c.5;
         symbol [ c %tmp.51 83 32 33 ];
         %tmp.52 = lgetv %maxZone.3;
         symbol [ maxZone %tmp.52 83 37 44 ];
         %tmp.53 = lte %tmp.51 %tmp.52;
         push %tmp.53;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_end:
         %tmp.54 = phi [%tmp.50 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_16_83_37_begin] [%tmp.53 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_true] [%tmp.54 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_end];
         bf %tmp.54 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_46_85_12_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 84 16 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_end:
+        %tmp.54 = phi [%tmp.50 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_16_83_37_begin] [%tmp.53 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_true] [%tmp.54 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_32_83_37_end];
+        bf %tmp.54 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_46_85_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 84 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ WatchUi %tmp.55 84 28 35 ];
         %tmp.55 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.56 84 36 48 ];
@@ -373,11 +588,19 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.76 = add %tmp.74 %tmp.75;
         lputv %zoneText.4 %tmp.76;
         symbol [ zoneText %zoneText.4 84 16 24 ];
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_46_85_12_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_85_19_87_12_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 86 16 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_46_85_12_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_85_19_87_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 86 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ WatchUi %tmp.77 86 28 35 ];
         %tmp.77 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.78 86 36 48 ];
@@ -411,6 +634,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.98 = add %tmp.96 %tmp.97;
         lputv %zoneText.4 %tmp.98;
         symbol [ zoneText %zoneText.4 86 16 24 ];
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_85_19_87_12_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_end:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_stop:
@@ -418,6 +642,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_88_15_90_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 89 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_85_19_87_12_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_83_12_87_12_if_end:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_57_88_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_88_15_90_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 89 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.99 = "(";
         %tmp.100 = lgetv %minZone.2;
         symbol [ minZone %tmp.100 89 29 36 ];
@@ -437,18 +670,32 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.111 = add %tmp.109 %tmp.110;
         lputv %zoneText.4 %tmp.111;
         symbol [ zoneText %zoneText.4 89 12 20 ];
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_88_15_90_8_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 91 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_stmt:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_88_15_90_8_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_81_8_90_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 91 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _cadenceZoneDisplay %tmp.113 91 12 31 ];
         %tmp.113 = getv ? :_cadenceZoneDisplay;
         %tmp.114 = null;
         %tmp.115 = ne %tmp.113 %tmp.114;
+<<<<<<< HEAD
         bf %tmp.115 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_41_93_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 92 12 ]
+=======
+        bf %tmp.115 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_41_93_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 92 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _cadenceZoneDisplay %tmp.117 92 12 31 ];
         %tmp.117 = getv ? :_cadenceZoneDisplay;
         %tmp.118 = as %tmp.117 { (!Null) };
@@ -457,25 +704,44 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.120 = lgetv %zoneText.4;
         symbol [ zoneText %tmp.120 92 40 48 ];
         invoke %tmp.118 %tmp.119(%tmp.120);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_41_93_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 96 8 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_41_93_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_91_8_93_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 96 8 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %newZoneState.6 = local;
         symbol [ newZoneState %newZoneState.6 96 12 24 ];
         %tmp.121 = 0;
         lputv %newZoneState.6 %tmp.121;
         symbol [ newZoneState %newZoneState.6 96 12 24 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 97 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_12_97_51_begin:
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 97 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_12_97_51_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.122 = lgetv %info.1;
         symbol [ info %tmp.122 97 12 16 ];
         %tmp.123 = null;
         %tmp.124 = ne %tmp.122 %tmp.123;
+<<<<<<< HEAD
         bf %tmp.124 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_true:
+=======
+        bf %tmp.124 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.125 = lgetv %info.1;
         symbol [ info %tmp.125 97 28 32 ];
         %tmp.126 = as %tmp.125 { (!Null) };
@@ -484,6 +750,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.128 = null;
         %tmp.129 = ne %tmp.127 %tmp.128;
         push %tmp.129;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_end:
         %tmp.130 = phi [%tmp.124 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_12_97_51_begin] [%tmp.129 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_true] [%tmp.130 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_end];
         bf %tmp.130 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end;
@@ -491,6 +758,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 98 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_end:
+        %tmp.130 = phi [%tmp.124 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_12_97_51_begin] [%tmp.129 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_true] [%tmp.130 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_28_97_51_end];
+        bf %tmp.130 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 98 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %c.7 = local;
         symbol [ c %c.7 98 16 17 ];
         %tmp.131 = lgetv %info.1;
@@ -500,13 +776,19 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.133 = getv %tmp.132 :currentCadence;
         lputv %c.7 %tmp.133;
         symbol [ c %c.7 98 16 17 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 99 12 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_stmt:
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 99 12 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.134 = lgetv %c.7;
         symbol [ c %tmp.134 99 16 17 ];
         %tmp.135 = lgetv %minZone.2;
         symbol [ minZone %tmp.135 99 20 27 ];
         %tmp.136 = lt %tmp.134 %tmp.135;
+<<<<<<< HEAD
         bf %tmp.136 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_99_29_101_12_start:
@@ -519,11 +801,26 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_false:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 101 19 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_stmt:
+=======
+        bf %tmp.136 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_29_101_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 100 16 ]
+        %tmp.137 = -1;
+        lputv %newZoneState.6 %tmp.137;
+        symbol [ newZoneState %newZoneState.6 100 16 28 ];
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_29_101_12_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_false:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 101 19 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.138 = lgetv %c.7;
         symbol [ c %tmp.138 101 23 24 ];
         %tmp.139 = lgetv %maxZone.3;
         symbol [ maxZone %tmp.139 101 27 34 ];
         %tmp.140 = gt %tmp.138 %tmp.139;
+<<<<<<< HEAD
         bf %tmp.140 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_101_36_103_12_start:
@@ -547,50 +844,109 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 108 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_stmt:
+=======
+        bf %tmp.140 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_36_103_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 102 16 ]
+        %tmp.141 = 1;
+        lputv %newZoneState.6 %tmp.141;
+        symbol [ newZoneState %newZoneState.6 102 16 28 ];
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_36_103_12_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_103_19_105_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 104 16 ]
+        %tmp.142 = 0;
+        lputv %newZoneState.6 %tmp.142;
+        symbol [ newZoneState %newZoneState.6 104 16 28 ];
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_103_19_105_12_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_101_19_105_12_if_end:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_99_12_105_12_if_end:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_57_106_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_97_8_106_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 108 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.143 = lgetv %newZoneState.6;
         symbol [ newZoneState %tmp.143 108 12 24 ];
         symbol [ _lastZoneState %tmp.145 108 28 42 ];
         %tmp.145 = getv ? :_lastZoneState;
         %tmp.146 = ne %tmp.143 %tmp.145;
+<<<<<<< HEAD
         bf %tmp.146 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_44_120_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 109 12 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_stmt:
+=======
+        bf %tmp.146 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_44_120_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 109 12 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.147 = lgetv %newZoneState.6;
         symbol [ newZoneState %tmp.147 109 16 28 ];
         %tmp.148 = -1;
         %tmp.149 = eq %tmp.147 %tmp.148;
+<<<<<<< HEAD
         bf %tmp.149 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_36_113_12_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 112 16 ]
+=======
+        bf %tmp.149 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_36_113_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 112 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ System %tmp.150 112 16 22 ];
         %tmp.150 = getm $.Toybox.System;
         symbol [ println %tmp.151 112 23 30 ];
         %tmp.151 = getv function %tmp.150 :println;
         %tmp.152 = "[vibe] single pulse (below min)";
         invoke %tmp.150 %tmp.151(%tmp.152);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_36_113_12_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_false:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 113 19 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_stmt:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_36_113_12_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_false:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 113 19 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_stmt:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.153 = lgetv %newZoneState.6;
         symbol [ newZoneState %tmp.153 113 23 35 ];
         %tmp.154 = 1;
         %tmp.155 = eq %tmp.153 %tmp.154;
+<<<<<<< HEAD
         bf %tmp.155 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_42_118_12_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 116 16 ]
+=======
+        bf %tmp.155 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_42_118_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 116 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ System %tmp.156 116 16 22 ];
         %tmp.156 = getm $.Toybox.System;
         symbol [ println %tmp.157 116 23 30 ];
         %tmp.157 = getv function %tmp.156 :println;
         %tmp.158 = "[vibe] first pulse (above max)";
         invoke %tmp.156 %tmp.157(%tmp.158);
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 117 16 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 117 16 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _vibeTimer %tmp.160 117 16 26 ];
         %tmp.160 = getv ? :_vibeTimer;
         symbol [ start %tmp.161 117 27 32 ];
@@ -604,27 +960,49 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.167 = 240;
         %tmp.168 = false;
         invoke %tmp.160 %tmp.161(%tmp.166, %tmp.167, %tmp.168);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_42_118_12_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 119 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_42_118_12_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_113_19_118_12_if_end:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_109_12_118_12_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 119 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.169 = lgetv %newZoneState.6;
         symbol [ newZoneState %tmp.169 119 29 41 ];
         symbol [ _lastZoneState ? 119 12 26 ];
         putv self :_lastZoneState %tmp.169;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_44_120_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 122 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_12_122_53_begin:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_44_120_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_108_8_120_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 122 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_12_122_53_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.170 = lgetv %info.1;
         symbol [ info %tmp.170 122 12 16 ];
         %tmp.171 = null;
         %tmp.172 = ne %tmp.170 %tmp.171;
+<<<<<<< HEAD
         bf %tmp.172 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_true:
+=======
+        bf %tmp.172 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.173 = lgetv %info.1;
         symbol [ info %tmp.173 122 28 32 ];
         %tmp.174 = as %tmp.173 { (!Null) };
@@ -633,12 +1011,21 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.176 = null;
         %tmp.177 = ne %tmp.175 %tmp.176;
         push %tmp.177;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_end:
         %tmp.178 = phi [%tmp.172 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_12_122_53_begin] [%tmp.177 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_true] [%tmp.178 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_end];
         bf %tmp.178 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_true:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_58_124_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 123 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_end:
+        %tmp.178 = phi [%tmp.172 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_12_122_53_begin] [%tmp.177 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_true] [%tmp.178 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_28_122_53_end];
+        bf %tmp.178 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_58_124_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 123 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _heartrateDisplay %tmp.180 123 12 29 ];
         %tmp.180 = getv ? :_heartrateDisplay;
         symbol [ setText %tmp.181 123 30 37 ];
@@ -652,28 +1039,49 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.185 = getv function %tmp.184 :toString;
         %tmp.186 = invoke %tmp.184 %tmp.185();
         invoke %tmp.180 %tmp.181(%tmp.186);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_58_124_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_124_13_126_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 125 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_58_124_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_124_13_126_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 125 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _heartrateDisplay %tmp.188 125 12 29 ];
         %tmp.188 = getv ? :_heartrateDisplay;
         symbol [ setText %tmp.189 125 30 37 ];
         %tmp.189 = getv function %tmp.188 :setText;
         %tmp.190 = "--";
         invoke %tmp.188 %tmp.189(%tmp.190);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_124_13_126_8_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 129 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_12_129_52_begin:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_124_13_126_8_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_122_8_126_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 129 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_12_129_52_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.191 = lgetv %info.1;
         symbol [ info %tmp.191 129 12 16 ];
         %tmp.192 = null;
         %tmp.193 = ne %tmp.191 %tmp.192;
+<<<<<<< HEAD
         bf %tmp.193 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_true:
+=======
+        bf %tmp.193 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.194 = lgetv %info.1;
         symbol [ info %tmp.194 129 28 32 ];
         %tmp.195 = as %tmp.194 { (!Null) };
@@ -682,6 +1090,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.197 = null;
         %tmp.198 = ne %tmp.196 %tmp.197;
         push %tmp.198;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_end:
         %tmp.199 = phi [%tmp.193 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_12_129_52_begin] [%tmp.198 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_true] [%tmp.199 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_end];
         bf %tmp.199 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false;
@@ -689,6 +1098,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 130 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_end:
+        %tmp.199 = phi [%tmp.193 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_12_129_52_begin] [%tmp.198 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_true] [%tmp.199 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_28_129_52_end];
+        bf %tmp.199 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 130 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %distanceKm.8 = local;
         symbol [ distanceKm %distanceKm.8 130 16 26 ];
         %tmp.200 = lgetv %info.1;
@@ -700,7 +1118,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.204 = div %tmp.202 %tmp.203;
         lputv %distanceKm.8 %tmp.204;
         symbol [ distanceKm %distanceKm.8 130 16 26 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 131 12 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 131 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _distanceDisplay %tmp.206 131 12 28 ];
         %tmp.206 = getv ? :_distanceDisplay;
         symbol [ setText %tmp.207 131 29 36 ];
@@ -714,28 +1136,49 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.212 = " km";
         %tmp.213 = add %tmp.211 %tmp.212;
         invoke %tmp.206 %tmp.207(%tmp.213);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_132_13_134_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 133 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_57_132_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_132_13_134_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 133 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _distanceDisplay %tmp.215 133 12 28 ];
         %tmp.215 = getv ? :_distanceDisplay;
         symbol [ setText %tmp.216 133 29 36 ];
         %tmp.216 = getv function %tmp.215 :setText;
         %tmp.217 = "-- km";
         invoke %tmp.215 %tmp.216(%tmp.217);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_132_13_134_8_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_end:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 137 8 ]
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_stmt:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_12_137_46_begin:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_132_13_134_8_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_129_8_134_8_if_end:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 137 8 ]
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_stmt:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_12_137_46_begin:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.218 = lgetv %info.1;
         symbol [ info %tmp.218 137 12 16 ];
         %tmp.219 = null;
         %tmp.220 = ne %tmp.218 %tmp.219;
+<<<<<<< HEAD
         bf %tmp.220 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_true:
+=======
+        bf %tmp.220 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_true:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %tmp.221 = lgetv %info.1;
         symbol [ info %tmp.221 137 28 32 ];
         %tmp.222 = as %tmp.221 { (!Null) };
@@ -744,6 +1187,7 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.224 = null;
         %tmp.225 = ne %tmp.223 %tmp.224;
         push %tmp.225;
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_end:
         %tmp.226 = phi [%tmp.220 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_12_137_46_begin] [%tmp.225 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_true] [%tmp.226 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_end];
         bf %tmp.226 @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false;
@@ -751,6 +1195,15 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 138 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_end:
+        %tmp.226 = phi [%tmp.220 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_12_137_46_begin] [%tmp.225 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_true] [%tmp.226 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_28_137_46_end];
+        bf %tmp.226 @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_true:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 138 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %seconds.9 = local;
         symbol [ seconds %seconds.9 138 16 23 ];
         %tmp.227 = lgetv %info.1;
@@ -762,8 +1215,13 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.231 = div %tmp.229 %tmp.230;
         lputv %seconds.9 %tmp.231;
         symbol [ seconds %seconds.9 138 16 23 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 139 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 139 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %hours.10 = local;
         symbol [ hours %hours.10 139 16 21 ];
         %tmp.232 = lgetv %seconds.9;
@@ -772,8 +1230,13 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.234 = div %tmp.232 %tmp.233;
         lputv %hours.10 %tmp.234;
         symbol [ hours %hours.10 139 16 21 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 140 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 140 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %minutes.11 = local;
         symbol [ minutes %minutes.11 140 16 23 ];
         %tmp.235 = lgetv %seconds.9;
@@ -784,8 +1247,13 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.239 = div %tmp.237 %tmp.238;
         lputv %minutes.11 %tmp.239;
         symbol [ minutes %minutes.11 140 16 23 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 141 12 ]
         [ "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 141 12 ]
+        [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop" ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         %secs.12 = local;
         symbol [ secs %secs.12 141 16 20 ];
         %tmp.240 = lgetv %seconds.9;
@@ -794,7 +1262,11 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.242 = mod %tmp.240 %tmp.241;
         lputv %secs.12 %tmp.242;
         symbol [ secs %secs.12 141 16 20 ];
+<<<<<<< HEAD
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 142 12 ]
+=======
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 142 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _timeDisplay %tmp.244 142 12 24 ];
         %tmp.244 = getv ? :_timeDisplay;
         symbol [ setText %tmp.245 142 25 32 ];
@@ -824,22 +1296,36 @@ C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_Te
         %tmp.262 = invoke %tmp.259 %tmp.260(%tmp.261);
         %tmp.263 = add %tmp.258 %tmp.262;
         invoke %tmp.244 %tmp.245(%tmp.263);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop:
         goto @C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_end;
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_143_13_145_8_start:
 [ "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc" 144 12 ]
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_51_143_8_stop:
+        goto @C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_end;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_else_false:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_143_13_145_8_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc" 144 12 ]
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
         symbol [ _timeDisplay %tmp.265 144 12 24 ];
         %tmp.265 = getv ? :_timeDisplay;
         symbol [ setText %tmp.266 144 25 32 ];
         %tmp.266 = getv function %tmp.265 :setText;
         %tmp.267 = "--:--:--";
         invoke %tmp.265 %tmp.266(%tmp.267);
+<<<<<<< HEAD
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_143_13_145_8_stop:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_end:
 C__Users_teapot_Documents_Projects_GarminCadenceMonitor_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop:
+=======
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_143_13_145_8_stop:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_137_8_145_8_if_end:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_source_TestingCadenceView_mc_67_37_147_4_stop:
+>>>>>>> b1fede500a07cfab45a1285d557345c08ffdc36b
     }
 }
-[ @file = "C:\Users\teapot\Documents\Projects\GarminCadenceMonitor\TestingCadence\source\TestingCadenceView.mc"; @line = 1; ]
+[ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\source\TestingCadenceView.mc"; @line = 1; ]
 <init> {
 }
